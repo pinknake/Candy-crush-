@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>Candy Ultimate</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/levels.js"></script>
+<script src="js/save.js"></script>
+<script src="js/sound.js"></script>
+<script src="js/game.js" defer></script>
+
+</head>
+
+<body>
+
+<!-- TOP AD -->
+<div class="ad">
+<script src="ads/ads.js"></script>
+</div>
+
+<div class="game-container">
+
+<h1>🍬 Candy Ultimate</h1>
+
+<div class="stats">
+
+Score: <span id="score">0</span>
+
+Level: <span id="level">1</span>
+
+Moves: <span id="moves">30</span>
+
+</div>
+
+<div id="gameBoard"></div>
+
+<div class="controls">
+
+<button onclick="newGame()">New Game</button>
+
+<button onclick="hint()">Hint</button>
+
+<button onclick="shuffleBoard()">Shuffle</button>
+
+<button onclick="saveGame()">Save</button>
+
+</div>
+
+</div>
+
+<!-- BOTTOM AD -->
+<div class="ad">
+<script src="ads/ads.js"></script>
+</div>
+
+</body>
+</html>
